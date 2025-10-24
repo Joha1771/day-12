@@ -2,7 +2,7 @@
 
 .hero__header{
     display: flex;
-    gap: 920px;
+    gap: 771px;
     align-items: center;
     justify-content: center;
     padding-top: 35px;
@@ -12,6 +12,7 @@
     gap: 39px;
     align-items: center;
     justify-content: center;
+
 }
 .search{
     display: flex;

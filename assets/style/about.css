@@ -1,0 +1,100 @@
+.about__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 43px;
+    width: 1142px;
+    position: relative;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about__container {
+    margin-top: 123px;
+}
+
+.about__title h2 {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 23px;
+    letter-spacing: 0%;
+color: #363636;
+}
+
+.about__description p {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: 16.5%;
+    color: #363636;
+
+}
+.about__image img{
+    width: 839px;
+    height: 491px;
+}
+.about__image-content{
+    position: absolute ;
+    left: 580px;
+    top: 170px;
+    display: flex;
+    align-items: center;
+gap: 100px;
+    width: 605px;
+    height: 492px;
+    background: #000000a7;
+justify-content: center;
+
+}
+.about__content-column1{
+    display: flex;
+    flex-direction: column;
+    gap: 62px;
+    font-family: "Montserrat";
+font-weight: 600;
+font-size: 20px;
+line-height: 109.00000000000001%;
+letter-spacing: 16.5%;
+color: #FFFFFF;
+
+}
+.about__content-column2{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+        font-family: "Montserrat";
+font-weight: 600;
+font-size: 20px;
+line-height: 109.00000000000001%;
+letter-spacing: 16.5%;
+color: #FFFFFF;
+}
+.about__image{
+    padding-top: 78px;
+}
+
+.masked-text {    
+    font-weight: bold;
+    color: transparent;
+    background-image: url('https://images.unsplash.com/photo-1732535725600-f805d8b33c9c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); 
+    background-size: 200%; 
+    background-position: 0 50%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate-background 5s infinite alternate linear;
+}
+
+@keyframes animate-background {
+    0% {
+        background-position: 0 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
