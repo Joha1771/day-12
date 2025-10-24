@@ -1,0 +1,90 @@
+.form__page{
+    width: 440px;
+    height: 454px;
+    border: 1px solid #E4E5E4;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    box-shadow: 0px 10px 28px 9px rgba(0, 0, 0, 0.20);
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 226px;
+    padding-bottom: 114px;
+
+}
+.form__page input{
+    width: 394px;
+    height: 66px;
+    border: 1px solid #E4E5E4;
+    outline: none;
+
+}
+.form__box1{
+    display: flex;
+    flex-direction: column;
+}
+.form__title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 46px;
+}
+.form__title h3{
+    font-family: "Montserrat";
+font-weight: 600;
+font-size: 25px;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.form__box2{
+    display: flex;
+    flex-direction: column;
+}
+.form__page label{
+   font-family: "Montserrat";
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+letter-spacing: 0%;
+color:#606060 ;
+}
+.form__page button{
+    display: flex;
+    background-color: #50626C;
+    gap: 25px;
+    align-items: center;
+    padding: 16px 124px;
+    color: #FFFFFF;
+
+}
+.form__page img{
+    display: flex;
+    align-items: center;
+    width: 38px;
+    height: 4px;
+}
+.form__button-wrapper{
+    width: 393px;
+    height: 65px;
+}
+.form__wrapper{
+    display: flex;
+    gap: 135px;
+    justify-content: center;
+    padding-left: 100px;
+}
+.form__hr {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+hr{
+    width: 1157px;
+    border: 1px solid #A4A4A4
+}
